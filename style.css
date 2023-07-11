@@ -1,1 +1,12 @@
+a {
+  color: white;
+}
 
+body {
+  color:white;
+  backgroud-color: gray; 
+}
+
+.navbar-brand {
+  color: white
+}
