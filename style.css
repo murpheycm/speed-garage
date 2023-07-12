@@ -10,7 +10,7 @@ nav {
 
 ul {
   list-style: none;
-  justify-content: start;
+  text-align: left;
 }
 
 li {
@@ -18,7 +18,7 @@ li {
 }
 
 .row {
-  margin: 10px;
+  padding: 10px;
 }
 
 h2 {
