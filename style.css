@@ -7,11 +7,16 @@ nav {
   text-align: left;
 }
 
-h2, footer{
+h2 {
   color: black;
   text-align: center;
 }
 
 img {
   padding: 20px;
+}
+
+footer {
+  color: black;
+  text-align: center;
 }
