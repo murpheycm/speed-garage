@@ -10,7 +10,7 @@ nav {
 
 ul {
   list-style: none;
-  justify-content: left;
+  justify-content: start;
 }
 
 li {
