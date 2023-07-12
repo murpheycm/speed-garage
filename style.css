@@ -49,6 +49,10 @@ img {
   font-size: 20px;
 }
 
+.card img{
+  z-index:1;
+}
+
 footer {
   color: black;
   text-align: center;
