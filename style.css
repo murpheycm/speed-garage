@@ -50,12 +50,13 @@ img {
 
 .card:hover {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  font-size: 40px;
+  opacity: 0.5;
 }
 
 .card h5 {
   z-index:1;
   color: white;
+  font-size: 40px;
   text-align: center;
   text-transform: uppercase;
   position: absolute;
