@@ -10,6 +10,11 @@ nav {
 
 ul {
   list-style: none;
+  justify-content: left;
+}
+
+li {
+  padding: 5px;
 }
 
 h2 {
