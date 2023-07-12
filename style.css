@@ -10,7 +10,6 @@ nav {
 
 .navbar-brand {
   font-family: 'Grape Nuts', cursive;
-  text-transform: uppercase;
 }
 
 ul {
@@ -30,7 +29,6 @@ h2 {
   color: black;
   text-align: center;
   font-family: 'Grape Nuts', cursive;
-  text-transform: uppercase;
 }
 
 img {
