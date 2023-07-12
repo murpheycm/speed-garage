@@ -43,6 +43,12 @@ img {
   display: inline-flex;
 }
 
+.card:hover {
+  opacity: 0.5;
+  color: black;
+  font-size: 20px;
+}
+
 footer {
   color: black;
   text-align: center;
