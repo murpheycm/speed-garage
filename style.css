@@ -17,6 +17,10 @@ li {
   padding: 5px;
 }
 
+.row {
+  margin: 10px;
+}
+
 h2 {
   color: black;
   text-align: center;
