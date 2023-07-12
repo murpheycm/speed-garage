@@ -49,8 +49,8 @@ img {
 }
 
 .card:hover {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  font-size: 20px;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  font-size: 40px;
 }
 
 .card h5 {
@@ -65,10 +65,7 @@ img {
 }
 
 .card:hover h5 {
-  z-index:1;
-  color: black;
-  text-align: center;
-  vertical-align: middle;
+  color: white;
 }
 
 footer {
