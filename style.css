@@ -53,11 +53,7 @@ img {
 }
 
 .card img {
-  z-index:1;
-}
-
-.card h5 {
-  z-index:2;
+  z-index:-1;
 }
 
 footer {
