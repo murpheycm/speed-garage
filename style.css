@@ -54,6 +54,8 @@ img {
 .card h5 {
   z-index:1;
   color: black;
+  text-align: center;
+  vertical-align: middle;
 }
 
 footer {
