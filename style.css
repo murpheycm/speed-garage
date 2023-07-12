@@ -38,6 +38,11 @@ img {
   vertical-align:middle;
 }
 
+.card {
+  max-width: 25%;
+  display: inline-flex;
+}
+
 footer {
   color: black;
   text-align: center;
