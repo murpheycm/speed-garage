@@ -1,15 +1,10 @@
 body {
-  backgroud-color: gray; 
+  backgroud-color: gray;
 }
 
-.navbar-brand {
+nav {
   color: white;
   text-align: left;
-}
-
-.nav-item {
-  color: white;
-  text-align: center;
 }
 
 h2 {
