@@ -1,5 +1,5 @@
 body {
-  backgroud-color: gray;
+  background-color: #fff;
 }
 
 nav {
@@ -10,6 +10,7 @@ nav {
 
 .navbar-brand {
   font-family: 'Grape Nuts', cursive;
+  font-size: 200%;
 }
 
 ul {
@@ -18,7 +19,11 @@ ul {
 }
 
 li {
-  padding: 5px;
+  padding: 0 15px;
+}
+
+li:hover {
+  border-bottom: 3px solid #fff;
 }
 
 section {
@@ -28,7 +33,8 @@ section {
 h2 {
   color: black;
   text-align: center;
-  font-family: 'Grape Nuts', cursive;
+  font-family: 'Grape Nuts';
+
 }
 
 img {
@@ -38,7 +44,15 @@ img {
 }
 
 #about {
-  vertical-align:middle;
+  vertical-align: middle;
+}
+
+#aboutContact {
+  justify-content: center;
+}
+
+#services{
+  justify-content: center;
 }
 
 .card {
@@ -48,7 +62,7 @@ img {
 
 .card:hover {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .card img {
@@ -58,7 +72,7 @@ img {
 .card h5 {
   z-index:1;
   color: white;
-  font-size: 35px;
+  font-size: 200%;
   text-align: center;
   text-transform: uppercase;
   position: absolute;
@@ -72,6 +86,11 @@ img {
 
 .card:hover h5 {
   color: white;
+}
+
+#contact {
+  justify-content: center;
+  text-align: center;
 }
 
 footer {
