@@ -5,12 +5,11 @@ body {
 nav {
   color: white;
   text-align: left;
-  padding: 5px;
+  padding: 0px;
 }
 
-.navbar-brand {
-  font-family: 'Grape Nuts', cursive;
-  font-size: 200%;
+.navbar-brand img{
+  padding: 0px;
 }
 
 ul {
