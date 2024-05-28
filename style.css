@@ -37,7 +37,7 @@ h2 {
 }
 
 .landing-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/speed-garage/img/1.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,14 +59,6 @@ img {
   padding: 20px;
   vertical-align: middle;
   horizontal-align: middle;
-}
-
-#about {
-  vertical-align: middle;
-}
-
-#aboutContact {
-  justify-content: center;
 }
 
 #services{
