@@ -35,8 +35,9 @@ li:hover {
   border-bottom: 2px solid #343a40;
 }
 
-h2 {
+h2, h3{
   color: white;
+  font-size: 3vw;
   text-align: center;
   text-transform: uppercase;
   margin: 3% 0%;
@@ -65,25 +66,47 @@ section {
 .hero-text {
   text-align: center;
   position: absolute;
-  font-size: x-large;
-  top: 70%;
-  left: 20%;
+  font-size: 1.5vw;
+  top: 70vh;
+  left: 20vw;
   transform: translate(-40%, -90%);
-  width:40%;
+  width:40vw;
   color: white;
   background-color: rgb(216, 142, 4);
-  padding: 6% 2% 6% 2%;
+  padding: 15% 2% 6% 2%;
 }
 
 .hero-text a {
   color: #343a40;
-  font-size: x-large;
-
+  font-size: 1.5vw;
 }
 
 .hero-text a:hover {
-  color: #343a40;
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  text-align: left;
+  padding: 0% 10%;
+}
+
+#meet {
+  padding-top: 10%;
+}
+
+#meet img {
+  width: 60%;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+.grid h3{
+  text-align: left;
+  font-size: 1.5vw;
 }
 
 #services{
@@ -92,7 +115,7 @@ section {
 }
 
 .card {
-  max-width: 30%;
+  max-width: 30vw;
   display: inline-flex;
   border: none;
   background-color: #343a40;
@@ -106,20 +129,21 @@ section {
 .card img {
   padding: 0;
   size: 100%;
+  display: inline-flex;
 }
 
 .card h5 {
   z-index:1;
   color: white;
-  font-size: 200%;
+  font-size: 2vw;
   text-align: center;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(252, 156, 1, 0.5);/* Orange background with opacity */
-  width: 100%;
+  width: 30vw;
   padding: 20px;
 }
 
