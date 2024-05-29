@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-  padding: 0px 30px;
+  padding: 0px 10px;
   text-transform: uppercase;
 }
 
@@ -44,30 +44,46 @@ h2 {
 
 section {
   margin: 0% 0% 20% 0%;
+  /* background-color: blue; */
 }
+/* 
+.hero-image {
+  background-size: contain; 
+  position: relative;
+} */
 
-#landing {
-  margin: 15% 0% 20% 0%;
-}
-
-.hero-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("amateurtrack.jpg");
-  height: auto;
+#home .hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("./img/bmwrally.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 
-.hero-txt {
+.hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+  font-size: x-large;
+  top: 70%;
+  left: 20%;
+  transform: translate(-40%, -90%);
+  width:40%;
   color: white;
-  background-color: black;
-  padding: 3%;
+  background-color: rgb(216, 142, 4);
+  padding: 6% 2% 6% 2%;
+}
+
+.hero-text a {
+  color: #343a40;
+  font-size: x-large;
+
+}
+
+.hero-text a:hover {
+  color: #343a40;
+  text-decoration: underline;
 }
 
 #services{
@@ -84,7 +100,7 @@ section {
 }
 
 .card:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .card img {
@@ -109,6 +125,7 @@ section {
 
 .card:hover h5 {
   color: white;
+  background: rgba(252, 156, 1, 0.8);
 }
 
 #contact {
@@ -117,6 +134,11 @@ section {
 }
 #contact a {
   color: orange;
+}
+
+#contact a:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 footer {
